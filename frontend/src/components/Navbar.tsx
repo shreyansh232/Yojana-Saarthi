@@ -17,16 +17,22 @@ import {
   SelectTrigger,
   SelectValue,
 } from "./ui/select";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
     <div className="text-lg">
-      <NavigationMenu className="bg-[#252422] p-8 text-white">
+      <NavigationMenu className="bg-[#252422] p-5 text-white">
         <NavigationMenuList className="w-screen">
           <div className="mx-10 flex w-screen items-center justify-between text-3xl">
             <NavigationMenuItem>
               <Link href="#" legacyBehavior passHref>
-                Yojana Saarthi
+                <Image
+                  src={"/assets/logo.png"}
+                  width={120}
+                  height={120}
+                  alt="logo"
+                />
               </Link>
             </NavigationMenuItem>
             <div className="flex items-center gap-3 text-xl">
