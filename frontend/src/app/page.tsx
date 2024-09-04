@@ -1,5 +1,5 @@
 import Navbar from "@/components/ui/Navbar";
-import Link from "next/link";
+import Schemes from "@/components/ui/Schemes";
 import Hero from "@/components/Hero";
 import { Testimonials } from "@/components/Testimonials";
 import Footer from "@/components/Footer";
@@ -10,6 +10,7 @@ export default function HomePage() {
     <>
       <Navbar />
       <Hero />
+      <Schemes />
       <Features />
       <Testimonials />
       <Footer />

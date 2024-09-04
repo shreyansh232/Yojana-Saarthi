@@ -69,7 +69,8 @@ export default {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))',
   			},
-  			orange: '#EB5E28'
+  			orange: '#EB5E28',
+        wheat: "#FFFCF2",
   		}
   	}
   },

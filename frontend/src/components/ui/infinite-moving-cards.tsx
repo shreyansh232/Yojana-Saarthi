@@ -92,7 +92,7 @@ export const InfiniteMovingCards = ({
         
         {items.map((item) => (
           <li
-            className="w-[300px] max-w-full rounded-xl border flex-shrink-0 border-[#eb5e28] px-8 py-6 md:w-[300px] relative shadow-lg bg-[#FFFCF2]"
+            className="w-[300px] max-w-full rounded-xl border flex-shrink-0 border-[#eb5e28] px-8 py-6 md:w-[400px] relative shadow-lg bg-[#FFFCF2]"
             key={item.name}
           >
             <blockquote className="mb-12">
