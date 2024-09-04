@@ -16,12 +16,12 @@ import { Button } from "./button";
 export default function Schemes() {
   return (
     <div className="p-20">
-      <h1 className="mb-6 text-center text-5xl font-bold">
+      <h1 className="mb-16 text-center text-5xl font-bold">
         Find suitable schemes
       </h1>
       <div className="grid grid-cols-2 gap-4 text-center">
         <Card>
-          <CardHeader className="">
+          <CardHeader>
             <HandCoins className="mb-4 flex w-full justify-center" size={45} />
             <CardTitle className="pb-2">Post Office Savings Scheme</CardTitle>
             <CardDescription>
@@ -75,8 +75,8 @@ export default function Schemes() {
           </CardHeader>
         </Card>
       </div>
-      <div className="m-7 flex justify-center">
-        <Button variant="button" className="text-md w-1/6 p-6">
+      <div className="m-16 flex justify-center">
+        <Button variant="button" className="w-1/6 p-6 text-lg">
           Explore more
         </Button>
       </div>

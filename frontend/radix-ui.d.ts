@@ -1,0 +1,1 @@
+declare module '@radix-ui/react-navigation-menu';

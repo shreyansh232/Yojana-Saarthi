@@ -1,57 +1,64 @@
-"use client";
-
 import * as React from "react";
 import Link from "next/link";
-
 import { cn } from "@/lib/utils";
-// import { Icons } from "@/components/icons"
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { Button } from "./button";
+import {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "./select";
 
 export default function Navbar() {
   return (
-    <div className="w-full text-lg">
-      <NavigationMenu className="w-full bg-[#252422] p-5 text-white">
-        <NavigationMenuList className="flex w-[1400px] justify-between">
-          <NavigationMenuItem>
-            <Link href="#" legacyBehavior passHref>
-              Yojana Saarthi
-            </Link>
-          </NavigationMenuItem>
-          <div className="flex gap-2">
+    <div className="text-lg">
+      <NavigationMenu className="bg-[#252422] p-5 text-white">
+        <NavigationMenuList className="w-screen">
+          <div className="mx-10 flex w-screen items-center justify-between text-3xl">
             <NavigationMenuItem>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Schemes
-              </NavigationMenuLink>
+              <Link href="#" legacyBehavior passHref>
+                Yojana Saarthi
+              </Link>
             </NavigationMenuItem>
-            <NavigationMenuItem>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Contact
-              </NavigationMenuLink>
-            </NavigationMenuItem>
-            <NavigationMenuItem>
-              <NavigationMenuTrigger className="bg-transparent">
-                English
-              </NavigationMenuTrigger>
-              <NavigationMenuContent>
-                <ul className="= w-[50px] p-4 md:w-[60px] lg:w-[70px]">
-                  <li>Hindi</li>
-                </ul>
-              </NavigationMenuContent>
-            </NavigationMenuItem>
-            <NavigationMenuItem>
-              <Button variant="button" className="px-8 py-5">
-                Login
-              </Button>
-            </NavigationMenuItem>
+            <div className="flex gap-3 items-center text-xl">
+              <NavigationMenuItem>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  Schemes
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  Contact
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <Select>
+                  <SelectTrigger className="w-[130px]">
+                    <SelectValue placeholder="Language" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectGroup>
+                    <SelectItem value="English">English</SelectItem>
+                      <SelectItem value="Hindi">Hindi</SelectItem>
+                    </SelectGroup>
+                  </SelectContent>
+                </Select>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <Button variant="button" className="px-10 py-3">
+                  Login
+                </Button>
+              </NavigationMenuItem>
+            </div>
           </div>
         </NavigationMenuList>
       </NavigationMenu>
