@@ -1,7 +1,8 @@
 import Navbar from "@/components/ui/Navbar";
 import Link from "next/link";
 import Hero from "@/components/Hero";
-import { Testimonials } from "@/components/Testimonials"; 
+import { Testimonials } from "@/components/Testimonials";
+import Footer from "@/components/Footer";
 
 export default function HomePage() {
   return (
@@ -9,6 +10,7 @@ export default function HomePage() {
       <Navbar />
       <Hero />  
       <Testimonials />
+      <Footer />
     </>
   );
 }
