@@ -1,9 +1,9 @@
-import Navbar from "@/components/ui/Navbar";
-import Link from "next/link";
+import Navbar from "@/components//Navbar";
 import Hero from "@/components/Hero";
 import { Testimonials } from "@/components/Testimonials";
 import Footer from "@/components/Footer";
-import Schemes from "@/components/ui/Schemes";
+import Schemes from "@/components/Schemes";
+import PostOfficeNavigator from "@/components/PostOfficeNavigator";
 
 export default function HomePage() {
   return (
@@ -12,6 +12,7 @@ export default function HomePage() {
       <Hero />
       <Schemes />
       <Testimonials />
+      <PostOfficeNavigator />
       <Footer />
     </>
   );

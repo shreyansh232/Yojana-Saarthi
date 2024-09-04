@@ -1,8 +1,6 @@
 import {
   Card,
-  CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -11,12 +9,15 @@ import { HandCoins } from "lucide-react";
 import { HousePlus } from "lucide-react";
 import { Shield } from "lucide-react";
 import { Warehouse } from "lucide-react";
-import { Button } from "./button";
+import { Button } from "./ui/button";
 
 export default function Schemes() {
   return (
     <div className="p-20">
-      <h1 className="mb-16 text-center text-5xl font-bold">
+      <h1
+        className="mb-16 text-center text-5xl font-bold"
+        style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)" }}
+      >
         Find suitable schemes
       </h1>
       <div className="grid grid-cols-2 gap-4 text-center">
