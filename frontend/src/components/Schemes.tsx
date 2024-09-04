@@ -1,6 +1,8 @@
 import {
   Card,
+  CardContent,
   CardDescription,
+  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -9,22 +11,25 @@ import { HandCoins } from "lucide-react";
 import { HousePlus } from "lucide-react";
 import { Shield } from "lucide-react";
 import { Warehouse } from "lucide-react";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 
 export default function Schemes() {
   return (
-    <div className="p-20">
+    <div className="w-full bg-[#252422]">
+    <div className="mx-auto max-w-6xl p-20">
       <h1
-        className="mb-16 text-center text-5xl font-bold"
+        className="mb-24 text-center text-6xl font-bold text-[#EB5E28]"
         style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)" }}
       >
         Find suitable schemes
       </h1>
-      <div className="grid grid-cols-2 gap-4 text-center">
+      <div className="grid grid-cols-2 gap-8 text-center">
         <Card>
-          <CardHeader>
+          <CardHeader className="">
             <HandCoins className="mb-4 flex w-full justify-center" size={45} />
-            <CardTitle className="pb-2">Post Office Savings Scheme</CardTitle>
+            <CardTitle className="pb-2 text-2xl">
+              Post Office Savings Scheme
+            </CardTitle>
             <CardDescription>
               Known for their safety, guaranteed returns, and tax benefits. They
               are known for their safety, guaranteed returns, and tax benefits.
@@ -38,7 +43,7 @@ export default function Schemes() {
               className="color-white mb-4 flex w-full justify-center"
               size={45}
             />
-            <CardTitle className="pb-2">
+            <CardTitle className="pb-2 text-2xl">
               Rural Postal Life Insurance Schemes
             </CardTitle>
             <CardDescription>
@@ -52,7 +57,7 @@ export default function Schemes() {
         <Card>
           <CardHeader>
             <HousePlus className="mb-4 flex w-full justify-center" size={45} />
-            <CardTitle className="pb-2">
+            <CardTitle className="pb-2 text-2xl">
               Postal Life insurance Schemes
             </CardTitle>
             <CardDescription>
@@ -66,7 +71,7 @@ export default function Schemes() {
         <Card>
           <CardHeader>
             <Shield className="mb-4 flex w-full justify-center" size={45} />
-            <CardTitle className="pb-2">Jansurakhsha Scheme</CardTitle>
+            <CardTitle className="pb-2 text-2xl">Jansurakhsha Scheme</CardTitle>
             <CardDescription>
               The Jansuraksha Schemes are a set of social security schemes
               launched by the Government of India aimed at providing affordable
@@ -76,11 +81,12 @@ export default function Schemes() {
           </CardHeader>
         </Card>
       </div>
-      <div className="m-16 flex justify-center">
-        <Button variant="button" className="w-1/6 p-6 text-lg">
+      <div className="m-7 flex justify-center">
+        <Button variant="button" className="text-md w-1/6 p-6">
           Explore more
         </Button>
       </div>
+    </div>
     </div>
   );
 }

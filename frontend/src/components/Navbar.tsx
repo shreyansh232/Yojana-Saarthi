@@ -21,7 +21,7 @@ import {
 export default function Navbar() {
   return (
     <div className="text-lg">
-      <NavigationMenu className="bg-[#252422] p-5 text-white">
+      <NavigationMenu className="bg-[#252422] p-8 text-white">
         <NavigationMenuList className="w-screen">
           <div className="mx-10 flex w-screen items-center justify-between text-3xl">
             <NavigationMenuItem>

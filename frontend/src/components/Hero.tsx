@@ -32,11 +32,11 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="flex justify-center px-4 md:w-1/2 md:justify-end">
           <Image
-            src="/assets/post-office.png"
-            alt="India Post"
-            className=""
-            width={1000}
-            height={1000}
+            src="/assets/yojana-saarthi-hero.png"
+            alt="Yojana Saarthi"
+            className="ml"
+            width={1200}
+            height={1200}
           />
         </div>
       </div>

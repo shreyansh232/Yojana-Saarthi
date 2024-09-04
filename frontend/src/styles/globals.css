@@ -3,6 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -31,17 +32,16 @@
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
-  @layer base {
-    * {
-      @apply border-border;
-    }
-    body {
-      @apply bg-background text-foreground;
-    }
-    body {
-      font-family: "Product Sans", sans-serif;
-    }
+  
+  * {
+    @apply border-border;
   }
+  
+  body {
+    @apply bg-wheat text-foreground;
+    font-family: "Product Sans", sans-serif; /* Merged body styles */
+  }
+
   .image-container {
     width: 40px;
     height: 40px;
@@ -49,12 +49,14 @@
     align-items: center;
     justify-content: center;
   }
+
   .image-rounded {
     border-radius: 50%;
     object-fit: cover;
     width: 100%;
     height: 100%;
   }
+
   .dark {
     --background: 0 0% 3.9%;
     --foreground: 0 0% 98%;
@@ -82,16 +84,7 @@
     --chart-5: 340 75% 55%;
   }
 }
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
 
 .lucide {
-  /* Change this! */
-  color: #eb5e28;
+  color: #eb5e28; /* Ensure this color is intended */
 }

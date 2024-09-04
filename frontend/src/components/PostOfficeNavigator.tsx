@@ -13,7 +13,8 @@ import { MapPin } from "lucide-react";
 
 export default function PostOfficeNavigator() {
   return (
-    <div className="bg-wheat p-10">
+    <div className="w-full h-screen">
+    <div className="p-10 max-w-7xl mx-auto">
       <h1
         className="mb-16 text-center text-5xl font-bold text-[#EB5E28]"
         style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)" }}
@@ -64,6 +65,7 @@ export default function PostOfficeNavigator() {
           </CardFooter>
         </Card>
       </div>
+    </div>
     </div>
   );
 }

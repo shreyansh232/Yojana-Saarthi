@@ -17,7 +17,7 @@ export default function Schemes() {
   return (
     <div className="mx-auto max-w-6xl p-20">
       <h1
-        className="mb-24 text-center text-6xl font-bold text-[#EB5E28]"
+        className="text-center text-6xl font-bold text-[#EB5E28]"
         style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)" }}
       >
         Find suitable schemes

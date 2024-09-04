@@ -5,7 +5,8 @@ import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 
 export function Testimonials() {
   return (
-    <div className="dark:bg-grid-white/[0.05] relative mb-36 flex h-screen flex-col items-center justify-center overflow-hidden rounded-md bg-transparent antialiased">
+    <div className="bg-[#252422]">
+    <div className="dark:bg-grid-white/[0.05] relative flex h-screen flex-col items-center justify-center overflow-hidden rounded-md bg-transparent antialiased">
       <h1
         className="mb-24 text-center text-6xl font-bold text-[#EB5E28]"
         style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)" }}
@@ -17,6 +18,7 @@ export function Testimonials() {
         direction="right"
         speed="slow"
       />
+    </div>
     </div>
   );
 }

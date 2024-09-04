@@ -32,14 +32,16 @@ export function Features() {
   ];
 
   return (
+    <div className="h-screen bg-wheat">
     <div className="mx-auto max-w-5xl px-8">
       <h1
-        className="mb-10 mt-20 text-center text-6xl font-bold text-[#EB5E28]"
+        className="mb-10 mt-10 text-center text-6xl font-bold text-[#EB5E28]"
         style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)" }}
       >
         What do we provide?
       </h1>
       <HoverEffect items={projects} />
+    </div>
     </div>
   );
 }

@@ -11,7 +11,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className="bg-[#FFFC2]">
+    <html lang="en" className="bg-wheat">
       <body>{children}</body>
     </html>
   );
