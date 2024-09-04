@@ -8,7 +8,7 @@ import {
   NavigationMenuList,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-import { Button } from "./button";
+import { Button } from "./ui/button";
 import {
   Select,
   SelectContent,
@@ -16,7 +16,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "./select";
+} from "./ui/select";
 
 export default function Navbar() {
   return (
@@ -29,7 +29,7 @@ export default function Navbar() {
                 Yojana Saarthi
               </Link>
             </NavigationMenuItem>
-            <div className="flex gap-3 items-center text-xl">
+            <div className="flex items-center gap-3 text-xl">
               <NavigationMenuItem>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Schemes
@@ -47,7 +47,7 @@ export default function Navbar() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectGroup>
-                    <SelectItem value="English">English</SelectItem>
+                      <SelectItem value="English">English</SelectItem>
                       <SelectItem value="Hindi">Hindi</SelectItem>
                     </SelectGroup>
                   </SelectContent>
