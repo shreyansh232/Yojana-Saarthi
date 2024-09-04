@@ -64,3 +64,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+.lucide {
+  /* Change this! */
+  color: #eb5e28;
+}

@@ -56,6 +56,7 @@ export default {
           "5": "hsl(var(--chart-5))",
         },
         orange: "#EB5E28",
+        wheat: "#FFFCF2",
       },
     },
   },
