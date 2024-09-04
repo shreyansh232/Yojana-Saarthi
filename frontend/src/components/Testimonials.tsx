@@ -26,11 +26,11 @@ const testimonials = [
     image:
       "https://images.unsplash.com/photo-1595152772835-219674b2a8a6?crop=faces&fit=crop&w=500&h=500&q=80",
     quote: (
-      <div>
+      <div className="text-xl">
         Using this platform has greatly enhanced my ability to access financial
         services tailored to my needs.
         <strong> The platform's insights into local needs are spot on!</strong>
-        It’s a game-changer for anyone looking to manage their finances
+        It&apos;s a game-changer for anyone looking to manage their finances
         effectively.
       </div>
     ),
@@ -41,7 +41,7 @@ const testimonials = [
     image:
       "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?crop=faces&fit=crop&w=500&h=500&q=80",
     quote: (
-      <div>
+      <div className="text-xl">
         The platform identified the best savings scheme for my situation.
         <strong>
           {" "}
@@ -56,10 +56,10 @@ const testimonials = [
     image:
       "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?crop=faces&fit=crop&w=500&h=500&q=80",
     quote: (
-      <div>
+      <div className="text-xl">
         This platform made it easy to understand and choose the right insurance
         plan.
-        <strong> It’s intuitive and highly user-friendly.</strong>I would
+        <strong> It&apos;s intuitive and highly user-friendly.</strong>I would
         recommend it to anyone.
       </div>
     ),
@@ -70,7 +70,7 @@ const testimonials = [
     image:
       "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?crop=faces&fit=crop&w=500&h=500&q=80",
     quote: (
-      <div>
+      <div className="text-xl">
         The insights provided by this platform have been invaluable.
         <strong> The accuracy of the recommendations is impressive.</strong>
       </div>
@@ -82,12 +82,12 @@ const testimonials = [
     image:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=faces&fit=crop&w=500&h=500&q=80",
     quote: (
-      <div>
-        Thanks to this platform, I’ve been able to better manage my savings and
+      <div className="text-xl">
+        Thanks to this platform, I&apos;ve been able to better manage my savings and
         plan for the future.
         <strong>
           {" "}
-          It’s like having a financial advisor at your fingertips.
+          It&apos;s like having a financial advisor at your fingertips.
         </strong>
       </div>
     ),
@@ -98,10 +98,10 @@ const testimonials = [
     image:
       "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=faces&fit=crop&w=500&h=500&q=80",
     quote: (
-      <div>
-        I’m really impressed with how this platform understands the needs of
+      <div className="text-xl">
+        I&apos;m really impressed with how this platform understands the needs of
         people like me.
-        <strong> It’s helped me make better financial decisions.</strong>
+        <strong> It&apos;s helped me make better financial decisions.</strong>
       </div>
     ),
     name: "Kiran Patel",
