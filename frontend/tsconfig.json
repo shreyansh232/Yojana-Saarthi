@@ -36,7 +36,8 @@
     "**/*.tsx",
     "**/*.cjs",
     "**/*.js",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "public/locales/en/common.jsom"
   ],
   "exclude": ["node_modules"]
 }

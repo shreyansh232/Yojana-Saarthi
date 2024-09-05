@@ -2,8 +2,10 @@
 
 import React from "react";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
+import { useTranslation } from "react-i18next";
 
 export function Testimonials() {
+  const { t } = useTranslation();
   return (
     <div>
       <div className="dark:bg-grid-white/[0.05] relative flex h-screen flex-col items-center justify-center overflow-hidden rounded-md bg-transparent antialiased">
@@ -11,7 +13,7 @@ export function Testimonials() {
           className="mb-24 text-center text-6xl font-bold text-[#EB5E28]"
           style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)" }}
         >
-          What are people saying about us?
+         {t("what_people_saying")}
         </h1>
         <InfiniteMovingCards
           items={testimonials}

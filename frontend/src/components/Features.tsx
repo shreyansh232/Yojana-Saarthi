@@ -1,47 +1,50 @@
 "use client";
+
+import { useTranslation } from "react-i18next";
 import React from "react";
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 import { Target, Briefcase, Star, Globe } from "lucide-react";
 
 export function Features() {
+  const { t } = useTranslation();
   const projects = [
     {
-      title: "Targeted Service Delivery",
+      title: `${t("targeted_service_delivery")}`,
       description:
-        "Precisely meeting demographic needs will boost campaign effectiveness, leading to higher conversion rates and customer satisfaction.",
-      icon: <Target className="h-10 w-10"/>,
+        `${t("targeted_service_delivery_desc")}`,
+      icon: <Target className="h-10 w-10" />,
     },
     {
-      title: "Efficient Resource Allocation",
+      title: `${t("efficient_resource_allocation")}`,
       description:
-        "Optimizing resources based on demand patterns will reduce costs and enhance overall service efficiency.",
-      icon: <Briefcase className="h-10 w-10"/>,
+        `${t("efficient_resource_allocation_desc")}`,
+      icon: <Briefcase className="h-10 w-10" />,
     },
     {
-      title: "Enhanced Financial Inclusion",
+      title:`${t("enhanced_financial_inclusion")}`,
       description:
-        "Reaching underserved populations with tailored financial products will promote economic well-being and support national financial inclusion goals.",
-      icon: <Star className="h-10 w-10"/>,
+        `${t("enhanced_financial_inclusion_desc")}`,
+      icon: <Star className="h-10 w-10" />,
     },
     {
-      title: "Improved Customer Experience",
+      title: `${t("improved_customer_experience")}`,
       description:
-        "Aligning services with customer needs and routines will strengthen loyalty and drive higher usage of postal financial services.",
-      icon: <Globe className="h-10 w-10"/>,
+       `${t("improved_customer_experience_desc")}`,
+      icon: <Globe className="h-10 w-10" />,
     },
   ];
 
   return (
     <div className="h-screen bg-wheat">
-    <div className="mx-auto max-w-5xl px-8">
-      <h1
-        className="mb-10 mt-10 text-center text-6xl font-bold text-[#EB5E28]"
-        style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)" }}
-      >
-        What do we provide?
-      </h1>
-      <HoverEffect items={projects} />
-    </div>
+      <div className="mx-auto max-w-5xl px-8">
+        <h1
+          className="mb-10 mt-10 text-center text-6xl font-bold text-[#EB5E28]"
+          style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)" }}
+        >
+          {t("what_we_provide")}
+        </h1>
+        <HoverEffect items={projects} />
+      </div>
     </div>
   );
 }
