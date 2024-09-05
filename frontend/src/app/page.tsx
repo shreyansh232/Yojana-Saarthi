@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Schemes from "@/components/Schemes";
 import PostOfficeNavigator from "@/components/PostOfficeNavigator";
 import { Features } from "@/components/Features";
+import { NagrikForm } from "@/components/NagrikForm";
 
 export default function HomePage() {
   return (
@@ -15,6 +16,7 @@ export default function HomePage() {
       <Features />
       <Testimonials />
       <PostOfficeNavigator />
+      {/* <NagrikForm /> */}
       <Footer />
     </>
   );
