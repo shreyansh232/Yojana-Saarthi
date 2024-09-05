@@ -5,15 +5,30 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { NagrikForm } from "@/components/NagrikForm";
 import { Skeleton } from "@/components/ui/skeleton";
-import { Loader2 } from "lucide-react";
+import { ChevronRight, Loader2 } from "lucide-react";
 import Link from "next/link";
+import axios from "axios";
+import Image from "next/image";
 
 const steps = ["Enter details", "Suggested Schemes"];
+interface Scheme {
+    beneficiaryState: string;
+    schemeShortTitle: string;
+    level: string;
+    nodalMinistryName: string;
+    schemeCategory: string;
+    schemeName: string;
+    schemeCloseDate: string;
+    briefDescription: string;
+    age_range: string;
+    tags: string[];
+}
 
 export default function HorizontalLinearStepper() {
   const [activeStep, setActiveStep] = React.useState(0);
   const [isLoading, setIsLoading] = React.useState(false);
   const { handleSubmit, watch } = useForm();
+  const [schemeData, setSchemeData] = React.useState([]);
   const formValues = watch();
   const handleNext = () => {
     setIsLoading(true);
@@ -22,7 +37,13 @@ export default function HorizontalLinearStepper() {
       setIsLoading(false);
     }, 1000);
   };
-
+  const fetchSchemes = async() => {
+    const response = await axios.get("http://127.0.0.1:8000/schemes");
+    setSchemeData(response?.data);
+  }
+    React.useEffect(() => {
+        fetchSchemes();
+    }, []);
   const handleReset = () => {
     setActiveStep(0);
     setIsLoading(false);
@@ -45,22 +66,40 @@ export default function HorizontalLinearStepper() {
       </CardContent>
     </Card>
   );
-
+  const truncate = (input: string) => {
+    if (input.length > 20) {
+      return input.substring(0, 20) + "...";
+    }
+    return input;
+  }
   const getPath = (index: number) => { 
     return `/scheme/${index + 1}`; 
   };
-
-  const mappedCards = Array.from({ length: 5 }).map((_, index) => (
-    <Link href={getPath(index)}>
-      <Card key={index} className="h-36 w-full">
-        <CardHeader>
-          <CardTitle>Scheme {index + 1}</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p>Details about scheme {index + 1} go here.</p>
-        </CardContent>
-      </Card>
-    </Link>
+  const mappedCards = schemeData.sort(() => Math.random() - 0.5).slice(0, 4).map((scheme: Scheme, index: number) => (
+    <Link href={getPath(scheme?.schemeShortTitle)} key={index}>
+    <Card className="w-full p-4 border border-orange-400 rounded-xl border-orange">
+    <CardHeader className="p-0">
+      <div className="flex items-center space-x-2">
+        
+        <Image src="/assets/documents.png" className="pt-4" width={50} height={50} alt={scheme.schemeName} />
+        <h2 className="text-lg font-semibold text-left pl-1">{scheme.schemeName}</h2>
+        <ChevronRight className="h-6 w-6" />
+      </div>
+    </CardHeader>
+    <CardContent className="flex flex-end ml-8">
+      <div className="flex flex-wrap gap-2 mt-2">
+        {scheme.tags.map((tag: string, index: number) => (
+          <span
+            key={index}
+            className="px-3 py-1 text-sm border border-orange text-gray-800 rounded-full hover:bg-orange hover:text-white"
+          >
+            {truncate(tag)}
+          </span>
+        ))}
+      </div>
+    </CardContent>
+  </Card>
+  </Link>
   ));
 
   return (
