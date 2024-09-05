@@ -8,7 +8,6 @@ import certifi
 app = FastAPI()
 uri = "mongodb+srv://duplixx:12345@cluster0.8vzkxzr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
-
 client = MongoClient(uri, tlsCAFile=certifi.where())
 db = client["your_database_name"]  # Replace with your database name
 collection = db["Cluster0"]  # Replace with your collection name
