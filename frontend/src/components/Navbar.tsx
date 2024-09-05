@@ -1,4 +1,8 @@
+"use client";
+
 import * as React from "react";
+import { useTranslation } from "react-i18next";
+import i18n from "../utils/i18n";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import {
@@ -18,8 +22,20 @@ import {
   SelectValue,
 } from "./ui/select";
 import Image from "next/image";
+import i18next from "i18next";
 
 export default function Navbar() {
+  const { t, i18n } = useTranslation();
+
+  const handleLanguageChange = async (language: string) => {
+    console.log(language);
+    try {
+      await i18next.changeLanguage(language);
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
   return (
     <div className="text-lg">
       <NavigationMenu className="bg-[#252422] p-5 text-white">
@@ -38,23 +54,23 @@ export default function Navbar() {
             <div className="flex items-center gap-3 text-xl">
               <NavigationMenuItem>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Schemes
+                  {t("schemes")}
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Contact
+                  {t("contact")}
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <Select>
+                <Select onValueChange={handleLanguageChange}>
                   <SelectTrigger className="w-[130px]">
-                    <SelectValue placeholder="Language" />
+                    <SelectValue placeholder={t("language")} />
                   </SelectTrigger>
                   <SelectContent>
                     <SelectGroup>
-                      <SelectItem value="English">English</SelectItem>
-                      <SelectItem value="Hindi">Hindi</SelectItem>
+                      <SelectItem value="en">{t("english")}</SelectItem>
+                      <SelectItem value="hi">{t("hindi")}</SelectItem>
                     </SelectGroup>
                   </SelectContent>
                 </Select>
@@ -62,7 +78,7 @@ export default function Navbar() {
               <Link href={"/dashboard"}>
                 <NavigationMenuItem>
                   <Button variant="button" className="px-10 py-3">
-                    Login
+                    {t("login")}
                   </Button>
                 </NavigationMenuItem>
               </Link>

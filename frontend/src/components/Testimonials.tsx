@@ -2,23 +2,25 @@
 
 import React from "react";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
+import { useTranslation } from "react-i18next";
 
 export function Testimonials() {
+  const { t } = useTranslation();
   return (
-    <div className="bg-[#252422]">
-    <div className="dark:bg-grid-white/[0.05] relative flex h-screen flex-col items-center justify-center overflow-hidden rounded-md bg-transparent antialiased">
-      <h1
-        className="mb-24 text-center text-6xl font-bold text-[#EB5E28]"
-        style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)" }}
-      >
-        What are people saying about us?
-      </h1>
-      <InfiniteMovingCards
-        items={testimonials}
-        direction="right"
-        speed="slow"
-      />
-    </div>
+    <div>
+      <div className="dark:bg-grid-white/[0.05] relative flex h-screen flex-col items-center justify-center overflow-hidden rounded-md bg-transparent antialiased">
+        <h1
+          className="mb-24 text-center text-6xl font-bold text-[#EB5E28]"
+          style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)" }}
+        >
+         {t("what_people_saying")}
+        </h1>
+        <InfiniteMovingCards
+          items={testimonials}
+          direction="right"
+          speed="slow"
+        />
+      </div>
     </div>
   );
 }
@@ -85,8 +87,8 @@ const testimonials = [
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=faces&fit=crop&w=500&h=500&q=80",
     quote: (
       <div className="text-xl">
-        Thanks to this platform, I&apos;ve been able to better manage my savings and
-        plan for the future.
+        Thanks to this platform, I&apos;ve been able to better manage my savings
+        and plan for the future.
         <strong>
           {" "}
           It&apos;s like having a financial advisor at your fingertips.
@@ -101,8 +103,8 @@ const testimonials = [
       "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=faces&fit=crop&w=500&h=500&q=80",
     quote: (
       <div className="text-xl">
-        I&apos;m really impressed with how this platform understands the needs of
-        people like me.
+        I&apos;m really impressed with how this platform understands the needs
+        of people like me.
         <strong> It&apos;s helped me make better financial decisions.</strong>
       </div>
     ),
