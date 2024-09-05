@@ -24,8 +24,6 @@ import {
 } from "@/components/ui/dialog";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
-import Stepper from "@/components/Stepper";
-import SchemesOutput from "@/components/SchemesOutput";
 
 export default function page() {
   return (
@@ -43,7 +41,6 @@ export default function page() {
                 </Button>
               </DialogTrigger>
               <DialogContent>
-                <Stepper />
               </DialogContent>
             </Dialog>
           </div>
@@ -184,7 +181,6 @@ export default function page() {
           </TabsContent>
         </Tabs>
       </div>
-      <SchemesOutput />
     </PageContainer>
   );
 }
