@@ -28,7 +28,7 @@ export default function Navbar() {
             <NavigationMenuItem>
               <Link href="#" legacyBehavior passHref>
                 <Image
-                  src={"/assets/logo.png"}
+                  src={"/assets/yojana-logo.png"}
                   width={120}
                   height={120}
                   alt="logo"
@@ -59,11 +59,13 @@ export default function Navbar() {
                   </SelectContent>
                 </Select>
               </NavigationMenuItem>
-              <NavigationMenuItem>
-                <Button variant="button" className="px-10 py-3">
-                  Login
-                </Button>
-              </NavigationMenuItem>
+              <Link href={"/dashboard"}>
+                <NavigationMenuItem>
+                  <Button variant="button" className="px-10 py-3">
+                    Login
+                  </Button>
+                </NavigationMenuItem>
+              </Link>
             </div>
           </div>
         </NavigationMenuList>
