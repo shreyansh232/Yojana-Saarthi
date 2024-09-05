@@ -24,6 +24,7 @@ import {
 } from "@/components/ui/dialog";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
+import HorizontalLinearStepper from "@/components/Stepper";
 
 export default function page() {
   return (
@@ -37,10 +38,11 @@ export default function page() {
             <Dialog>
               <DialogTrigger asChild>
                 <Button variant="button" className="h-10 w-28 p-6 text-lg">
-                  Nagrik Info
+                  Add user
                 </Button>
               </DialogTrigger>
-              <DialogContent>
+              <DialogContent className="h-full">
+                <HorizontalLinearStepper />
               </DialogContent>
             </Dialog>
           </div>
