@@ -2,9 +2,7 @@
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { useForm, Controller } from "react-hook-form";
-
-import { Button } from "@/components/ui/button";
+import { useForm } from "react-hook-form";
 import {
   Form,
   FormControl,
@@ -22,12 +20,52 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
+const states: string[] = [
+  "Andhra Pradesh",
+  "Arunachal Pradesh",
+  "Assam",
+  "Bihar",
+  "Chhattisgarh",
+  "Goa",
+  "Gujarat",
+  "Haryana",
+  "Himachal Pradesh",
+  "Jharkhand",
+  "Karnataka",
+  "Kerala",
+  "Madhya Pradesh",
+  "Maharashtra",
+  "Manipur",
+  "Meghalaya",
+  "Mizoram",
+  "Nagaland",
+  "Odisha",
+  "Punjab",
+  "Rajasthan",
+  "Sikkim",
+  "Tamil Nadu",
+  "Telangana",
+  "Tripura",
+  "Uttar Pradesh",
+  "Uttarakhand",
+  "West Bengal",
+];
+
+const incomeLevels: string[] = [
+  "Below ₹1 lakh",
+  "₹1 lakh - ₹5 lakh",
+  "₹5 lakh - ₹10 lakh",
+  "Above ₹10 lakh",
+];
+
+
+
 const formSchema = z.object({
-  state: z.string(),
+  state: z.enum(states),
   age: z.string(),
   gender: z.enum(["male", "female", "other"]),
   maritalStatus: z.enum(["married", "never-married", "widowed", "divorced"]),
-  incomeLevel: z.string(),
+  incomeLevel: z.enum(incomeLevels),
   educationLevel: z.enum([
     "higher-education",
     "pre-metric",
@@ -61,10 +99,10 @@ export function NagrikForm() {
   }
 
   return (
-    <div className="m-10 w-1/2">
-      <h1>Input form</h1>
+    <div className="mx-auto">
+      <h1 className="mx-auto mb-3 text-2xl">Enter Details</h1>
       <Form {...form}>
-        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-3">
           <FormField
             control={form.control}
             name="state"
@@ -72,13 +110,23 @@ export function NagrikForm() {
               <FormItem>
                 <FormLabel>State</FormLabel>
                 <FormControl>
-                  <Input placeholder="" {...field} />
+                  <Select onValueChange={field.onChange} value={field.value}>
+                    <SelectTrigger>
+                      <SelectValue placeholder="Select State" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {states.map((state) => (
+                        <SelectItem key={state} value={state}>
+                          {state}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
                 </FormControl>
                 <FormMessage />
               </FormItem>
             )}
           />
-
           <FormField
             control={form.control}
             name="age"
@@ -106,12 +154,9 @@ export function NagrikForm() {
               <FormItem>
                 <FormLabel>Gender</FormLabel>
                 <FormControl>
-                  <Select
-                    onValueChange={field.onChange}
-                    defaultValue={field.value}
-                  >
+                  <Select onValueChange={field.onChange} value={field.value}>
                     <SelectTrigger>
-                      <SelectValue placeholder="Select" />
+                      <SelectValue placeholder="Select Gender" />
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="male">Male</SelectItem>
@@ -124,7 +169,6 @@ export function NagrikForm() {
               </FormItem>
             )}
           />
-
           <FormField
             control={form.control}
             name="maritalStatus"
@@ -132,10 +176,7 @@ export function NagrikForm() {
               <FormItem>
                 <FormLabel>Marital Status</FormLabel>
                 <FormControl>
-                  <Select
-                    onValueChange={field.onChange}
-                    defaultValue={field.value}
-                  >
+                  <Select onValueChange={field.onChange} value={field.value}>
                     <SelectTrigger>
                       <SelectValue placeholder="Select" />
                     </SelectTrigger>
@@ -161,7 +202,18 @@ export function NagrikForm() {
               <FormItem>
                 <FormLabel>Income Level</FormLabel>
                 <FormControl>
-                  <Input placeholder="" {...field} />
+                  <Select onValueChange={field.onChange} value={field.value}>
+                    <SelectTrigger>
+                      <SelectValue placeholder="Select Income Level" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {incomeLevels.map((level) => (
+                        <SelectItem key={level} value={level}>
+                          {level}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -175,10 +227,7 @@ export function NagrikForm() {
               <FormItem>
                 <FormLabel>Education Level</FormLabel>
                 <FormControl>
-                  <Select
-                    onValueChange={field.onChange}
-                    defaultValue={field.value}
-                  >
+                  <Select onValueChange={field.onChange} value={field.value}>
                     <SelectTrigger>
                       <SelectValue placeholder="Graduate" />
                     </SelectTrigger>
@@ -226,12 +275,9 @@ export function NagrikForm() {
               <FormItem>
                 <FormLabel>Employment Status</FormLabel>
                 <FormControl>
-                  <Select
-                    onValueChange={field.onChange}
-                    defaultValue={field.value}
-                  >
+                  <Select onValueChange={field.onChange} value={field.value}>
                     <SelectTrigger>
-                      <SelectValue placeholder="Full-time" />
+                      <SelectValue placeholder="Select Employment Status" />
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="full-time">Full-time</SelectItem>
@@ -264,10 +310,6 @@ export function NagrikForm() {
               </FormItem>
             )}
           />
-
-          <Button type="submit" variant="button">
-            Submit
-          </Button>
         </form>
       </Form>
     </div>
