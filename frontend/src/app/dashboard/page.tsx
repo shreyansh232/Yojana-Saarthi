@@ -13,7 +13,10 @@ export default function Dashboard() {
     <PageContainer scrollable={true}>
       <div className="flex flex-col gap-5">
         <div className="flex items-center justify-between">
-          <h2 className="text-3xl font-semibold">Overview</h2>
+          <div>
+            <h2 className="text-3xl font-semibold">Overview</h2>
+          </div>
+
           <div className="flex items-center">
             {/* <Image
               src="/assets/location-icon.png"
@@ -52,8 +55,8 @@ export default function Dashboard() {
             },
           ].map((item, index) => (
             <Card key={index} className="border border-gray-300 shadow-sm">
-              <CardContent className="flex items-center p-3 gap-5">
-                {item.icon} 
+              <CardContent className="flex items-center gap-5 p-3">
+                {item.icon}
                 <div>
                   <div className="text-2xl font-bold">{item.value}</div>
                   <div className="text-sm text-gray-500">{item.title}</div>
@@ -91,8 +94,7 @@ export default function Dashboard() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <PieGraph
-                  />
+                  <PieGraph />
                 </CardContent>
               </div>
             </div>
