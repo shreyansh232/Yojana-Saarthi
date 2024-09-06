@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useTranslation } from "react-i18next";
 import {
@@ -17,8 +17,8 @@ import { MapPin } from "lucide-react";
 export default function PostOfficeNavigator() {
   const { t } = useTranslation();
   return (
-    <div className="h-screen w-full">
-      <div className="mx-auto max-w-7xl p-10">
+    <div className="mt-32 w-full">
+      <div className="mx-auto max-w-7xl p-20">
         <h1
           className="mb-16 text-center text-5xl font-bold text-[#EB5E28]"
           style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)" }}
@@ -39,19 +39,21 @@ export default function PostOfficeNavigator() {
 
           <Card className="mt-7 h-full w-2/5">
             <CardHeader>
-              <CardTitle className="text-3xl">{t("enter_your_location")}</CardTitle>
+              <CardTitle className="text-3xl">
+                {t("enter_your_location")}
+              </CardTitle>
             </CardHeader>
             <CardContent>
               <form>
                 <div className="flex flex-col space-y-1.5">
                   <Label htmlFor="location" className="text-lg">
-                  {t("location")}
+                    {t("location")}
                   </Label>
                   <Input id="location" placeholder="Gautam Buddh Nagar" />
                 </div>
               </form>
               <Button variant="button" className="mt-3 w-full">
-              {t("find_post_office")}
+                {t("find_post_office")}
               </Button>
             </CardContent>
             <CardFooter className="pt-5">

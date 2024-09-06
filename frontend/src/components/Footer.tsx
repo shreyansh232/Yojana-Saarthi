@@ -72,14 +72,9 @@ export default function Footer() {
                   Services
                 </a>
               </li>
-              <li>
-                <a href="#" className="transition-colors hover:text-[#EB5E28]">
+              <li className="mb-5">
+                <a href="#" className="transition-colors hover:text-[#EB5E28]" >
                   Find a Post Office
-                </a>
-              </li>
-              <li>
-                <a href="#" className="transition-colors hover:text-[#EB5E28]">
-                  Careers
                 </a>
               </li>
             </ul>
