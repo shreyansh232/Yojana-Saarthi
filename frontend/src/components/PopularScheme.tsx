@@ -49,14 +49,14 @@ const PopularScheme = () => {
     return input;
   };
   const getPath = (index: number) => {
-    return `/scheme/${index + 1}`;
+    return `/scheme/${index}`;
   };
 
   const mappedCards = schemeData
     .sort(() => Math.random() - 0.5)
     .slice(0, 4)
     .map((scheme: Scheme, index: number) => (
-      <Link href={getPath(index)} key={index}>
+      <Link href={getPath(scheme?.schemeShortTitle)} key={index}>
         <Card className="border-orange w-full rounded-[30px] border p-4">
           <CardHeader className="p-0">
             <div className="flex items-center space-x-2">
