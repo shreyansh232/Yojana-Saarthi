@@ -4,13 +4,21 @@ from pymongo import MongoClient
 from pymongo.server_api import ServerApi
 import json
 import certifi
+from fastapi.middleware.cors import CORSMiddleware
+
+
 
 app = FastAPI()
 uri = "mongodb+srv://duplixx:12345@cluster0.8vzkxzr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+)
+
 client = MongoClient(uri, tlsCAFile=certifi.where())
-db = client["your_database_name"]  # Replace with your database name
-collection = db["Cluster0"]  # Replace with your collection name
+db = client["your_database_name"] 
+collection = db["Cluster0"]
 
 @app.get("/")
 def read_root():
@@ -39,7 +47,7 @@ def get_schemes():
     return schemes
 @app.get("/schemes/{scheme_id}")
 def get_scheme_by_id(scheme_id: str):
-    scheme = collection.find_one({"schemeName": scheme_id}, {'_id': 0})
+    scheme = collection.find_one({"schemeShortTitle": scheme_id}, {'_id': 0})
     if scheme:
         return scheme
     else:

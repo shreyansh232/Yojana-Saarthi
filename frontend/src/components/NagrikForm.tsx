@@ -61,7 +61,7 @@ const incomeLevels: string[] = [
 
 
 const formSchema = z.object({
-  state: z.enum(states),
+  state: z.enum(states), 
   age: z.string(),
   gender: z.enum(["male", "female", "other"]),
   maritalStatus: z.enum(["married", "never-married", "widowed", "divorced"]),
