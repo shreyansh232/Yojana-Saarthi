@@ -6,21 +6,25 @@ import PageContainer from "@/components/layout/page-container";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
 import PopularScheme from "@/components/PopularScheme";
-import { Home, User, Target, PiggyBank } from "lucide-react"; 
+import { Home, User, Target, PiggyBank,MapPin, Sparkles } from "lucide-react"; 
 
 export default function Dashboard() {
   return (
     <PageContainer scrollable={true}>
       <div className="flex flex-col gap-5">
         <div className="flex items-center justify-between">
-          <h2 className="text-3xl font-semibold">Overview</h2>
+          <div>
+            <h2 className="text-3xl font-semibold">Overview</h2>
+          </div>
+
           <div className="flex items-center">
-            <Image
+            {/* <Image
               src="/assets/location-icon.png"
               width={24}
               height={24}
               alt="Location"
-            />
+            /> */}
+            <MapPin />
             <span className="ml-2 text-sm">
               Gautam Buddha Nagar, Uttar Pradesh
             </span>
@@ -51,8 +55,8 @@ export default function Dashboard() {
             },
           ].map((item, index) => (
             <Card key={index} className="border border-gray-300 shadow-sm">
-              <CardContent className="flex items-center p-3 gap-5">
-                {item.icon} 
+              <CardContent className="flex items-center gap-5 p-3">
+                {item.icon}
                 <div>
                   <div className="text-2xl font-bold">{item.value}</div>
                   <div className="text-sm text-gray-500">{item.title}</div>
@@ -90,16 +94,16 @@ export default function Dashboard() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <PieGraph
-                  />
+                  <PieGraph />
                 </CardContent>
               </div>
             </div>
           </Card>
           <Card className="border border-gray-300">
             <CardHeader>
-              <CardTitle className="text-lg font-semibold">
+              <CardTitle className="text-lg font-semibold flex">
                 Popular Schemes in your Area
+                <Sparkles className="ml-2" />
               </CardTitle>
             </CardHeader>
             <CardContent>

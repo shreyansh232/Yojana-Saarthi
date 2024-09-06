@@ -4,7 +4,6 @@ import { useForm } from "react-hook-form";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { NagrikForm } from "@/components/NagrikForm";
-import { Skeleton } from "@/components/ui/skeleton";
 import { ChevronRight, Loader2 } from "lucide-react";
 import Link from "next/link";
 import axios from "axios";
@@ -30,6 +29,7 @@ export default function HorizontalLinearStepper() {
   const { handleSubmit, watch } = useForm();
   const [schemeData, setSchemeData] = React.useState([]);
   const formValues = watch();
+
   const handleNext = () => {
     setIsLoading(true);
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
@@ -37,7 +37,8 @@ export default function HorizontalLinearStepper() {
       setIsLoading(false);
     }, 1000);
   };
-  const fetchSchemes = async() => {
+
+  const fetchSchemes = async () => {
     const response = await axios.get("http://127.0.0.1:8000/schemes");
     setSchemeData(response?.data);
   }
@@ -56,17 +57,19 @@ export default function HorizontalLinearStepper() {
     );
   };
 
-  const SkeletonCard = () => (
-    <Card className="h-36 w-full">
-      <CardHeader>
-        <Skeleton className="h-6 w-2/3" />
-      </CardHeader>
-      <CardContent>
-        <Skeleton className="h-4 w-full" />
-        <Skeleton className="mt-2 h-4 w-4/5" />
-      </CardContent>
+  const BardLogoOverlay = () => (
+    <Card className="flex h-screen w-full items-center justify-center">
+      <Image
+        src="/assets/Google_Bard_logo.svg"
+        width={48}
+        height={48}
+        alt="Bard logo"
+      />
+      <span className="ml-2 text-2xl">...</span>
+      <div className="absolute inset-0 bg-white opacity-50"></div>
     </Card>
   );
+
   const truncate = (input: string) => {
     if (input.length > 20) {
       return input.substring(0, 20) + "...";
@@ -122,11 +125,7 @@ export default function HorizontalLinearStepper() {
           {activeStep === 1 && (
             <div className="mt-3 flex flex-col gap-3">
               <h2 className="mb-3 text-2xl">Suggested Schemes</h2>
-              {isLoading
-                ? Array.from({ length: 5 }).map((_, index) => (
-                    <SkeletonCard key={index} />
-                  ))
-                : mappedCards}
+              {isLoading ? <BardLogoOverlay /> : mappedCards}
             </div>
           )}
 
