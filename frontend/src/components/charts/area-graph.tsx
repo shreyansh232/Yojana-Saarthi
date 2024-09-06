@@ -40,12 +40,6 @@ const chartConfig = {
 export function AreaGraph() {
   return (
     <Card>
-      <CardHeader>
-        <CardTitle>Area Chart - Stacked</CardTitle>
-        <CardDescription>
-          Showing total visitors for the last 6 months
-        </CardDescription>
-      </CardHeader>
       <CardContent>
         <ChartContainer
           config={chartConfig}
