@@ -47,7 +47,7 @@ def get_schemes():
     return schemes
 @app.get("/schemes/{scheme_id}")
 def get_scheme_by_id(scheme_id: str):
-    scheme = collection.find_one({"schemeName": scheme_id}, {'_id': 0})
+    scheme = collection.find_one({"schemeShortTitle": scheme_id}, {'_id': 0})
     if scheme:
         return scheme
     else:

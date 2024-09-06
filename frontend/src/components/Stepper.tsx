@@ -11,7 +11,7 @@ import axios from "axios";
 import Image from "next/image";
 
 const steps = ["Enter details", "Suggested Schemes"];
-interface Scheme {
+export interface Scheme {
     beneficiaryState: string;
     schemeShortTitle: string;
     level: string;
@@ -44,6 +44,7 @@ export default function HorizontalLinearStepper() {
     React.useEffect(() => {
         fetchSchemes();
     }, []);
+
   const handleReset = () => {
     setActiveStep(0);
     setIsLoading(false);
@@ -73,10 +74,11 @@ export default function HorizontalLinearStepper() {
     return input;
   }
   const getPath = (index: number) => { 
-    return `/scheme/${index + 1}`; 
+    return `/scheme/${index}`; 
   };
   const mappedCards = schemeData.sort(() => Math.random() - 0.5).slice(0, 4).map((scheme: Scheme, index: number) => (
-    <Link href={getPath(scheme?.schemeShortTitle)} key={index}>
+
+    <Link href={getPath(scheme?.schemeShortTitle)} >
     <Card className="w-full p-4 border border-orange-400 rounded-xl border-orange">
     <CardHeader className="p-0">
       <div className="flex items-center space-x-2">
