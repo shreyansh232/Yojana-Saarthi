@@ -1,187 +1,118 @@
+import React from "react";
 import { AreaGraph } from "@/components/charts/area-graph";
 import { BarGraph } from "@/components/charts/bar-graph";
 import { PieGraph } from "@/components/charts/pie-graph";
-import { CalendarDateRangePicker } from "@/components/date-range-picker";
 import PageContainer from "@/components/layout/page-container";
-import { RecentSales } from "@/components/recent-sales";
-import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
-import { Label } from "@/components/ui/label";
-import { Input } from "@/components/ui/input";
-import HorizontalLinearStepper from "@/components/Stepper";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import Image from "next/image";
+import PopularScheme from "@/components/PopularScheme";
+import { Home, User, Target, PiggyBank } from "lucide-react"; 
 
-export default function page() {
+export default function Dashboard() {
   return (
     <PageContainer scrollable={true}>
-      <div className="space-y-2">
-        <div className="flex items-center justify-between space-y-2">
-          <h2 className="text-2xl font-bold tracking-tight">
-            Hi, Welcome back 👋
-          </h2>
-          <div className="hidden items-center space-x-2 md:flex">
-            <Dialog>
-              <DialogTrigger asChild>
-                <Button variant="button" className="h-10 w-28 p-6 text-lg">
-                  Add user
-                </Button>
-              </DialogTrigger>
-              <DialogContent className="h-full">
-                <HorizontalLinearStepper />
-              </DialogContent>
-            </Dialog>
+      <div className="flex flex-col gap-5">
+        <div className="flex items-center justify-between">
+          <h2 className="text-3xl font-semibold">Overview</h2>
+          <div className="flex items-center">
+            <Image
+              src="/assets/location-icon.png"
+              width={24}
+              height={24}
+              alt="Location"
+            />
+            <span className="ml-2 text-sm">
+              Gautam Buddha Nagar, Uttar Pradesh
+            </span>
           </div>
         </div>
-        <Tabs defaultValue="overview" className="space-y-4">
-          <TabsList>
-            <TabsTrigger value="overview">Overview</TabsTrigger>
-            <TabsTrigger value="analytics" disabled>
-              Analytics
-            </TabsTrigger>
-          </TabsList>
-          <TabsContent value="overview" className="space-y-4">
-            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-              <Card>
-                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                  <CardTitle className="text-sm font-medium">
-                    Total Revenue
-                  </CardTitle>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="h-4 w-4 text-muted-foreground"
-                  >
-                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
-                  </svg>
-                </CardHeader>
-                <CardContent>
-                  <div className="text-2xl font-bold">$45,231.89</div>
-                  <p className="text-xs text-muted-foreground">
-                    +20.1% from last month
-                  </p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                  <CardTitle className="text-sm font-medium">
-                    Subscriptions
-                  </CardTitle>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="h-4 w-4 text-muted-foreground"
-                  >
-                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-                    <circle cx="9" cy="7" r="4" />
-                    <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
-                  </svg>
-                </CardHeader>
-                <CardContent>
-                  <div className="text-2xl font-bold">+2350</div>
-                  <p className="text-xs text-muted-foreground">
-                    +180.1% from last month
-                  </p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                  <CardTitle className="text-sm font-medium">Sales</CardTitle>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="h-4 w-4 text-muted-foreground"
-                  >
-                    <rect width="20" height="14" x="2" y="5" rx="2" />
-                    <path d="M2 10h20" />
-                  </svg>
-                </CardHeader>
-                <CardContent>
-                  <div className="text-2xl font-bold">+12,234</div>
-                  <p className="text-xs text-muted-foreground">
-                    +19% from last month
-                  </p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                  <CardTitle className="text-sm font-medium">
-                    Active Now
-                  </CardTitle>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="h-4 w-4 text-muted-foreground"
-                  >
-                    <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
-                  </svg>
-                </CardHeader>
-                <CardContent>
-                  <div className="text-2xl font-bold">+573</div>
-                  <p className="text-xs text-muted-foreground">
-                    +201 since last hour
-                  </p>
-                </CardContent>
-              </Card>
-            </div>
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-7">
-              <div className="col-span-4">
-                <BarGraph />
-              </div>
-              <Card className="col-span-4 md:col-span-3">
+
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-4">
+          {[
+            {
+              title: "Access Points",
+              value: "1,45,065",
+              icon: <Home />, // {{ edit_1 }}
+            },
+            {
+              title: "No. of Sukanya Accounts opened",
+              value: "7,219",
+              icon: <User />, // {{ edit_2 }}
+            },
+            {
+              title: "Post offices with Core Banking Solutions",
+              value: "2,265",
+              icon: <Target />, // {{ edit_3 }}
+            },
+            {
+              title: "No of Accounts Opened",
+              value: "1,34,476",
+              icon: <PiggyBank />, // {{ edit_4 }}
+            },
+          ].map((item, index) => (
+            <Card key={index} className="border border-gray-300 shadow-sm">
+              <CardContent className="flex items-center p-3 gap-5">
+                {item.icon} 
+                <div>
+                  <div className="text-2xl font-bold">{item.value}</div>
+                  <div className="text-sm text-gray-500">{item.title}</div>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+          <Card className="col-span-2 border border-gray-300 shadow-sm">
+            <CardHeader>
+              <CardTitle className="text-lg font-semibold">
+                Schemes Enrolled in Past 30 Days
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <AreaGraph />
+            </CardContent>
+            <div className="grid grid-cols-2 gap-4">
+              <div>
                 <CardHeader>
-                  <CardTitle>Recent Sales</CardTitle>
-                  <CardDescription>
-                    You made 265 sales this month.
-                  </CardDescription>
+                  <CardTitle className="text-lg font-semibold">
+                    Annual Income by Age Group in Rural Areas
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <RecentSales />
+                  <BarGraph />
                 </CardContent>
-              </Card>
-              <div className="col-span-4">
-                <AreaGraph />
               </div>
-              <div className="col-span-4 md:col-span-3">
-                <PieGraph />
+              <div>
+                <CardHeader>
+                  <CardTitle className="text-lg font-semibold">
+                    Major Sources of Income in Indian Villages
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <PieGraph
+                  />
+                </CardContent>
               </div>
             </div>
-          </TabsContent>
-        </Tabs>
+          </Card>
+          <Card className="border border-gray-300">
+            <CardHeader>
+              <CardTitle className="text-lg font-semibold">
+                Popular Schemes in your Area
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="mb-4 rounded-lg">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28087.956294934014!2d77.5117932465272!3d28.35901477739566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc75cd5f393d7%3A0xe6ae70064e15e731!2sSector%2017A%2C%20Gautam%20Buddha%20Nagar%2C%20Uttar%20Pradesh%20203201!5e0!3m2!1sen!2sin!4v1725485552912!5m2!1sen!2sin"
+                  className="h-40 w-full"
+                ></iframe>
+              </div>
+              <PopularScheme />
+            </CardContent>
+          </Card>
+        </div>
       </div>
     </PageContainer>
   );

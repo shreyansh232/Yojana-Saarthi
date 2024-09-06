@@ -1,5 +1,4 @@
 "use client";
-
 import "@/styles/globals.css";
 import { type Metadata } from "next";
 import { I18nextProvider } from "react-i18next";
@@ -16,7 +15,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className="bg-wheat">
+    <html lang="en" className="bg-wheat" suppressHydrationWarning={true}>
       <I18nextProvider i18n={i18n}>
         <body>{children}</body>
       </I18nextProvider>
