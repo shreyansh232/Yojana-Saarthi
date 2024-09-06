@@ -1,886 +1,210 @@
 [
     {
-        "beneficiaryState": "Kerala",
-        "schemeShortTitle": "Fadsp(1012e)",
-        "level": "State",
-        "nodalMinistryName": "",
-        "schemeCategory": "Social welfare & Empowerment",
-        "schemeName": "Financial Assistance To Disabled Students Pursuing (10th, 11th, 12th Equivalent Exams)",
-        "schemeCloseDate": "",
-        "briefDescription": "The scheme “Financial Assistance to Disabled Students Pursuing (10th, 11th, 12th Equivalent Exams)” was launched by the Department of Social Justice, Government of Kerala.",
-        "age_range": "pwd: 10-100",
-        "tags": ["Financial Assistance", "Student", "Disabled", "PwD", "APL", "BPL"]
-    },
-    {
-        "beneficiaryState": "All",
-        "schemeShortTitle": "ICMR-PDF",
-        "level": "Central",
-        "nodalMinistryName": "Ministry Of Health & Family Welfare",
-        "schemeCategory": "Education & Learning",
-        "schemeName": "ICMR- Post Doctoral Fellowship",
-        "schemeCloseDate": "",
-        "briefDescription": "ICMR- Post Doctoral Fellowship (ICMR-PDF) Scheme is being instituted to foster high-quality research opportunities for promising fresh Ph.D./MD/MS holders in the areas of basic science, communicable and non-communicable diseases, & reproductive health including nutrition at ICMR Institutes/Centers.",
-        "age_range": "ews: 15-32, sc: 15-37, general: 15-32, obc: 15-37, st: 15-37, pwd: 15-37, female: 15-37",
-        "tags": ["ICMR", "Fellowship", "Post Doctoral", "Research", "PDF"]
-    },
-    {
-        "beneficiaryState": "Kerala",
-        "schemeShortTitle": "TKGTHE",
-        "level": "State",
-        "nodalMinistryName": "",
-        "schemeCategory": "Skills & Employment",
-        "schemeName": "Tool Kit Grant for Traditional Handicrafts Experts",
-        "schemeCloseDate": "",
-        "briefDescription": "The “Tool Kit Grant for Traditional Handicrafts Experts” scheme is launched for the purpose for improving the productivity and competitiveness of the traditional OBC craftsmen ensuring quality goods for enhanced income and thereby qualitative improvement in their living conditions.",
-        "age_range": "obc: 14-60",
-        "tags": ["Tool Kit", "Grant", "Handicrafts", "Self-employment", "Training", "Stipend", "OBC", "Craftsman"]
-    },
-    {
-        "beneficiaryState": "Kerala",
-        "schemeShortTitle": "Skerala",
-        "level": "State",
-        "nodalMinistryName": "",
-        "schemeCategory": "Social welfare & Empowerment",
-        "schemeName": "Snehasanthwanam",
-        "schemeCloseDate": "",
-        "briefDescription": "The Government of Kerala has launched the “Snehasanthwanam” scheme under the Kerala Social Security Mission. The scheme acts as a relief measure for the Endosulfan victims in the state of Kerala.",
-        "age_range": "ews: 0-100, sc: 0-100, general: 0-100, obc: 0-100, st: 0-100, female: 0-100, widowed: 0-100",
-        "tags": ["Endosulfan", "Victim", "Bedridden", "Financial Assistance", "Educational Assistance"]
-    },
-    {
-        "beneficiaryState": "Andaman and Nicobar Islands",
-        "schemeShortTitle": "SGASSOBCANIPHSAISL(ECXIXII)",
-        "level": "State",
-        "nodalMinistryName": "",
-        "schemeCategory": "Education & Learning, Social welfare & Empowerment",
-        "schemeName": "Scheme for Grant of Additional Scholarship to the Students of Other Backward Classes of Andaman and Nicobar Islands, for Pursuing Higher Studies Anywhere in India after Secondary Level (Except Class XI & XII)",
-        "schemeCloseDate": "",
-        "briefDescription": "The objective of the scheme is to provide additional scholarship to the OBC students belonging to the non-creamy layer of Andaman & Nicobar Islands for pursuing higher education after Secondary (X)/Senior Secondary (XII), in government-recognized Polytechnic/ITI/College/University anywhere in India.",
-        "age_range": "ews: 12-100, sc: 12-100, general: 12-100, obc: 12-100, st: 12-100, female: 12-100, widowed: 12-100",
-        "tags": ["Student", "OBC", "Scholarship", "Higher Study"]
-    },
-    {
-        "beneficiaryState": "Uttar Pradesh",
-        "schemeShortTitle": "NFBSUP",
-        "level": "State",
-        "nodalMinistryName": "",
-        "schemeCategory": "Social welfare & Empowerment",
-        "schemeName": "National Family Benefit Scheme - Uttar Pradesh",
-        "schemeCloseDate": "",
-        "briefDescription": "National Family Benefit Scheme or NBFS was launched by the Uttar Pradesh state government to provide financial assistance to those families that are unable to earn the necessities in life.",
-        "age_range": "ews: 18-60, sc: 18-60, general: 18-60, obc: 18-60, st: 18-60, female: 18-60, widowed: 18-60",
-        "tags": ["National Family Benefit", "Uttar Pradesh", "Financial Assistance"]
-    },
-    {
-        "beneficiaryState": "All",
-        "schemeShortTitle": "DACSSPOSTMSEBCS",
-        "level": "Central",
-        "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
-        "schemeCategory": "Education & Learning, Social welfare & Empowerment",
-        "schemeName": "Dr. Ambedakar Centrally Sponsored Scheme of Post-Matric Scholarships for the Economically Backward Class (EBC) Students",
-        "schemeCloseDate": "",
-        "briefDescription": "The objective of the scheme is to provide financial assistance to the Economically Backward Class (EBC) students studying at the post-matriculation or post-secondary stage to enable them to complete their education. These scholarships shall be available for studies in India only.",
-        "age_range": "ews: 14-100, sc: 14-100, general: 14-100, obc: 14-100, st: 14-100, female: 14-100, widowed: 14-100",
-        "tags": ["Scholarship", "Post Matric", "Economically Backward Class", "EBC", "Student"]
-    },
-    {
-        "beneficiaryState": "Odisha",
-        "schemeShortTitle": "FAOWJWS",
-        "level": "State",
-        "nodalMinistryName": "",
-        "schemeCategory": "Social welfare & Empowerment",
-        "schemeName": "Financial Assistance under Odisha Working Journalist Welfare Scheme",
-        "schemeCloseDate": "",
-        "briefDescription": "The scheme “Odisha Working Journalist Welfare Scheme” was launched by the Information & Public Relations Department, Government of Odisha. Under the Scheme, financial assistance is provided to the legal heir of the working journalist in case of his/her death, and in case of permanent incapacitation.",
-        "age_range": "ews: 1-100, sc: 1-100, general: 1-100, obc: 1-100, st: 1-100, female: 1-100, widowed: 1-100",
-        "tags": ["Journalist", "Permanent Incapacitation", "Death", "Financial Assistance"]
-    },
-    {
-        "beneficiaryState": "All",
-        "schemeShortTitle": "SJPFSGC",
-        "level": "Central",
-        "nodalMinistryName": "Ministry of Education",
-        "schemeCategory": "Education & Learning, Women and Child",
-        "schemeName": "Savitribai Jyotirao Phule Fellowship For Single Girl Child",
-        "schemeCloseDate": "",
-        "briefDescription": "Savitribai Jyotirao Phule Fellowship for Single Girl Child (SJSGC) is a Fellowship Scheme by the University Grants Commission (UGC), Department of Higher Education, for pursuing research work leading to the award of a Ph.D. degree. The target group of this scheme is the ‘single girl child'.",
-        "age_range": "sc: 14-45, general: 14-40, obc: 14-45, st: 14-45, pwd: 14-45",
-        "tags": ["Girl Child", "Fellowship", "Ph.D."]
-    },
-    {
-        "beneficiaryState": "Assam",
-        "schemeShortTitle": "EVTALA",
-        "level": "State",
-        "nodalMinistryName": "",
-        "schemeCategory": "Education & Learning",
-        "schemeName": "Exposure Visits To The Assam Legislative Assembly",
-        "schemeCloseDate": "",
-        "briefDescription": "The Exposure Visits to the Assam Legislative Assembly scheme was introduced in the budget speech during the first Budget Session in July 2016. It aims to provide an opportunity for Political Science students in Assam to visit and observe the functioning of the Assam Legislative Assembly.",
-        "age_range": "ews: 16-100, sc: 16-100, general: 16-100, obc: 16-100, st: 16-100, female: 16-100, widowed: 16-100",
-        "tags": ["Assam Legislative Assembly", "Student Visits", "10th", "12th", "Learning"]
-    },
-    {
-        "beneficiaryState": "All",
-        "schemeShortTitle": "SAPA&SDASDS:GGIAPFAFSD",
-        "level": "Central",
-        "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
-        "schemeCategory": "Social welfare & Empowerment;Transport & Infrastructure",
-        "schemeName": "Scheme of Assistance for the Prevention of Alcoholism & Substance (Drugs) Abuse and for Social Defence Services: General Grant-in-Aid Programme for Financial Assistance in the Field of Social Defence",
-        "schemeCloseDate": "",
-        "briefDescription": "The scheme aims to meet needs falling within the mandate of the Ministry which cannot be met under its regular schemes and support such initiatives of an innovative/pilot nature in the area of welfare and empowerment of the Ministry’s target groups, as cannot be supported under its regular schemes.",
-        "age_range": "18",
-        "tags": ["Rehabilitation", "Social Defence", "Grant", "Financial Assistance"]
-    },
-    {
-        "beneficiaryState": "Kerala",
-        "schemeShortTitle": "JS-ESDCV",
-        "level": "State",
-        "nodalMinistryName": "",
-        "schemeCategory": "Social welfare & Empowerment;Business & Entrepreneurship",
-        "schemeName": "Jeevanam Self-Employment Scheme To Dependents Of Crime Victims",
-        "schemeCloseDate": "",
-        "briefDescription": "The scheme “Jeevanam Self-Employment Scheme to Dependents of Crime Victims” was launched by the Department of Social Justice, Government of Kerala.",
-        "age_range": "15",
-        "tags": ["Dependent", "Victim", "Self-Employment", "Financial Assistance", "Breadwinner"]
-    },
-    {
-        "beneficiaryState": "Jammu and Kashmir",
-        "schemeShortTitle": "NN",
-        "level": "State",
-        "nodalMinistryName": "",
-        "schemeCategory": "Housing & Shelter;Social welfare & Empowerment;Women and Child",
-        "schemeName": "Nari Niketans",
-        "schemeCloseDate": "",
-        "briefDescription": "The \"Nari Niketans\" were established in 1976 by the Social Welfare Department Govt. of Jammu and Kashmir wherein deserted /destitute ladies/ widows having no means of livelihood are given admissions. There are seven Nari Niketan in Jammu & Kashmir. This is a 100% State Sponsored Scheme.",
-        "age_range": "100",
-        "tags": ["Shelter", "Widow", "Destitute", "Rehabilitation", "Social Welfare"]
-    },
-    {
-        "beneficiaryState": "Chhattisgarh",
-        "schemeShortTitle": "AKGBCSY",
-        "level": "State",
-        "nodalMinistryName": "",
-        "schemeCategory": "Health & Wellness",
-        "schemeName": "Asangathit Karmakar Gambhir Bimari Chikitsa Sahayata Yojana",
-        "schemeCloseDate": "",
-        "briefDescription": "Chhattisgarh State Government started a scheme \"Asangathit Karmakar Gambhir Bimari Chikitsa Sahayata Yojana\" for unorganized worker on 28 April 2012.",
-        "age_range": "18",
-        "tags": ["Medical Treatment", "Financial Assistance", "Serious Illness"]
-    },
-    {
-        "beneficiaryState": "Karnataka",
-        "schemeShortTitle": "AIRAVATA",
-        "level": "State",
-        "nodalMinistryName": "",
-        "schemeCategory": "Social welfare & Empowerment;Banking,Financial Services and Insurance",
-        "schemeName": "Airavata Scheme",
-        "schemeCloseDate": "",
-        "briefDescription": "This scheme envisages partnership with corporate aggregators like OLA and UBER to facilitate self-employment of rural youth through Radio Taxi and other successful cab transport ventures. Rural youth from SC/ST communities will be provided training, mentoring and other enhanced financial assistance.",
-        "age_range": "",
-        "tags": []
-    },
-    {
-        "beneficiaryState": "Tamil Nadu",
-        "schemeShortTitle": "RSDARC",
-        "level": "State",
-        "nodalMinistryName": "",
-        "schemeCategory": "Business & Entrepreneurship",
-        "schemeName": "Reimbursement of Stamp Duty and Registration Charges",
-        "schemeCloseDate": "",
-        "briefDescription": "The scheme \"Reimbursement of Stamp Duty and Registration Charges\" by the Micro Small and Medium Enterprises Department Government of Tamil Nadu",
-        "age_range": "",
-        "tags": []
-    },
-    {
-        "beneficiaryState": "All",
-        "schemeShortTitle": "ICDP:SVA-SRGU",
-        "level": "Central",
-        "nodalMinistryName": "Ministry Of Commerce And Industry",
-        "schemeCategory": "Agriculture,Rural & Environment",
-        "schemeName": "Support for Value Addition - Support to R&G units",
-        "schemeCloseDate": "",
-        "briefDescription": "This scheme aims to enhance the quality of coffee products and achieve value addition through the introduction of improved technologies in roasting, grinding, and packaging which will result in boosting domestic coffee consumption and entrepreneurship in the coffee sector.",
-        "age_range": "18",
-        "tags": ["Agriculture", "Farmer", "Subsidy", "Financial Assistance", "Direct Benefit Transfer"]
-    },
-    {
-        "beneficiaryState": "All",
-        "schemeShortTitle": "MIP",
-        "level": "Central",
-        "nodalMinistryName": "Ministry Of Agriculture and Farmers Welfare",
-        "schemeCategory": "Education & Learning",
-        "schemeName": "MANAGE Internship Programme",
-        "schemeCloseDate": "",
-        "briefDescription": "MANAGE Internship Programme is open to students from the disciplines of Extension Education, Economics, Sociology, Psychology, MSW, Journalism, Communication, and Environmental Science. The internships are open year-round, and the duration ranges from 3 months upto 6 months.",
-        "age_range": "16",
-        "tags": ["Internship", "Student", "Agriculture", "Management", "Environment"]
-    },
-    {
-        "beneficiaryState": "Goa",
-        "schemeShortTitle": "LLS-G",
-        "level": "State",
-        "nodalMinistryName": "",
-        "schemeCategory": "Social welfare & Empowerment;Women and Child",
-        "schemeName": "Laadli Laxmi Scheme",
-        "schemeCloseDate": "",
-        "briefDescription": "Laadli Laxmi Scheme was launched with the intention to address the undesirable tendency of female foeticides and with an aim towards erasing the general perception that the birth of a girl in the family is a burden on her parents/guardian during her marriage.",
-        "age_range": "18",
-        "tags": ["Girl", "Marriage", "Financial Assistance", "Social Welfare"]
-    },
-    {
-        "beneficiaryState": "Kerala",
-        "schemeShortTitle": "DRFDA(MT)",
+        "beneficiaryState": [
+            "Dadra and Nagar Haveli and Daman and Diu"
+        ],
+        "schemeShortTitle": "BPFTCW",
         "level": "State",
         "nodalMinistryName": null,
-        "schemeCategory": "Social welfare & Empowerment; Health & Wellness",
-        "schemeName": "Distress Relief Fund for the Differently Abled (Medical Treatment)",
+        "schemeCategory": [
+            "Social Welfare & Empowerment"
+        ],
+        "schemeName": "Bus Passes for Construction Workers",
         "schemeCloseDate": null,
-        "briefDescription": "The scheme 'Distress Relief Fund for the Differently Abled (Medical Treatment)' was launched by the Department of Social Justice, Government of Kerala.",
-        "age_range": "0",
-        "tags": ["Distress", "Differently Abled", "Medical Treatment", "Handicap", "PwD", "Financial Assistance", "BPL"]
+        "slug": "bpftcw",
+        "briefDescription": "The 'Bus Passes for Construction Workers' scheme by the BOCW Welfare Board, Labour Department, U.T. Administration of DNH & DD, provides 50% reimbursement of the travelling cost for registered construction workers who travel by bus from various villages in search of work.",
+        "age": {
+            "ews": {
+                "gte": 18,
+                "lte": 60
+            },
+            "sc": {
+                "gte": 18,
+                "lte": 60
+            },
+            "general": {
+                "gte": 18,
+                "lte": 60
+            },
+            "obc": {
+                "gte": 18,
+                "lte": 60
+            },
+            "st": {
+                "gte": 18,
+                "lte": 60
+            },
+            "female": {
+                "gte": 18,
+                "lte": 60
+            },
+            "widowed": {
+                "gte": 18,
+                "lte": 60
+            }
+        },
+        "tags": [
+            "Labour",
+            "Building Worker",
+            "Construction Worker",
+            "Bus Pass"
+        ]
     },
     {
-            "beneficiaryState": ["All"],
-            "schemeShortTitle": "ICDP:SVA-SRGU",
-            "level": "Central",
-            "nodalMinistryName": "Ministry of Commerce and Industry",
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Support for Value Addition - Support to R&G units",
-            "schemeCloseDate": null,
-            "slug": "icdpsva-srgu",
-            "briefDescription": "This scheme aims to enhance the quality of coffee products and achieve value addition through the introduction of improved technologies in roasting, grinding, and packaging, which will result in boosting domestic coffee consumption and entrepreneurship in the coffee sector.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
+        "beneficiaryState": [
+            "Tamil Nadu"
+        ],
+        "schemeShortTitle": "PSFA",
+        "level": "State",
+        "nodalMinistryName": null,
+        "schemeCategory": [
+            "Social welfare & Empowerment",
+            "Sports & Culture"
+        ],
+        "schemeName": "Pension Scheme - Folk Artist",
+        "schemeCloseDate": null,
+        "slug": "psfa",
+        "briefDescription": "The \"Pension Scheme\" was launched by the Art and Culture Department, Government of Tamil Nadu. The scheme aims to provide a pension to the registered folk artists.",
+        "age": {
+            "ews": {
+                "gte": 60,
+                "lte": 100
             },
-            "tags": ["Agriculture", "Farmer", "Subsidy", "Financial Assistance", "Direct Benefit Transfer"]
+            "sc": {
+                "gte": 60,
+                "lte": 100
+            },
+            "general": {
+                "gte": 60,
+                "lte": 100
+            },
+            "obc": {
+                "gte": 60,
+                "lte": 100
+            },
+            "st": {
+                "gte": 60,
+                "lte": 100
+            },
+            "female": {
+                "gte": 60,
+                "lte": 100
+            },
+            "widowed": {
+                "gte": 60,
+                "lte": 100
+            }
+        },
+        "tags": [
+            "Pension",
+            "Folk Artist",
+            "Financial Assistance",
+            "Person With Disability",
+            "Senior Citizen"
+        ]
     },
     {
-            "beneficiaryState": ["Arunachal Pradesh"],
-            "schemeShortTitle": "ANBY",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Atma Nirbhar Bagwani Yojana",
-            "schemeCloseDate": null,
-            "slug": "anby",
-            "briefDescription": "The schemes are part of the Atma Nirbhar program announced during the Budget session held in February this year. A total amount of Rs 120 crores – Rs 60 crore for each scheme – has been allocated to the two concerned departments of Agriculture and Horticulture.",
-            "age": {
-                "general": {"gte": 0, "lte": 100}
+        "beneficiaryState": [
+            "All"
+        ],
+        "schemeShortTitle": "SMILE-SCHOLARSHIP",
+        "level": "Central",
+        "nodalMinistryName": "Ministry of Social Justice and Empowerment",
+        "schemeCategory": [
+            "Education & Learning"
+        ],
+        "schemeName": "SMILE - Comprehensive Rehabilitation for Welfare of Transgender Persons",
+        "schemeCloseDate": null,
+        "slug": "smile-scholarship",
+        "briefDescription": "This scheme provides financial assistance in the form of scholarships to transgender students studying in secondary (IX & X) and senior secondary (XI & XII) schools to reduce dropout rates and support their educational aspirations.",
+        "age": {
+            "ews": {
+                "gte": 12,
+                "lte": 100
             },
-            "tags": ["Subsidy", "Farmers", "Umbrella Scheme"]
+            "sc": {
+                "gte": 12,
+                "lte": 100
+            },
+            "general": {
+                "gte": 12,
+                "lte": 100
+            },
+            "obc": {
+                "gte": 12,
+                "lte": 100
+            },
+            "st": {
+                "gte": 12,
+                "lte": 100
+            },
+            "female": {
+                "gte": 12,
+                "lte": 100
+            },
+            "widowed": {
+                "gte": 12,
+                "lte": 100
+            }
+        },
+        "tags": [
+            "Transgender",
+            "Scholarship",
+            "Secondary Education",
+            "Senior Secondary Education",
+            "Rehabilitation"
+        ]
     },
     {
-            "beneficiaryState": ["Goa"],
-            "schemeShortTitle": "NCRFS",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Social welfare", "Empowerment", "Agriculture", "Rural & Environment"],
-            "schemeName": "Natural Calamity Relief to Fishermen of State",
-            "schemeCloseDate": null,
-            "slug": "ncrfs",
-            "briefDescription": "Natural Calamity Relief to Fishermen of State is a scheme by the Dept of Fisheries, Govt of Goa. Through this scheme, financial assistance is provided to the active fishermen who contribute to the Fishermen Corpus Relief Fund, whose fishing vessels are damaged or lost due to natural calamities.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
+        "beneficiaryState": [
+            "Tamil Nadu"
+        ],
+        "schemeShortTitle": "ATNMASFOGII",
+        "level": "State",
+        "nodalMinistryName": null,
+        "schemeCategory": [
+            "Women and Child",
+            "Social Welfare & Empowerment"
+        ],
+        "schemeName": "Annai Teresa Ninaivu Marriage Assistance Scheme for Orphan Girls-II",
+        "schemeCloseDate": null,
+        "slug": "atnmasfogii",
+        "briefDescription": "\"Annai Teresa Ninaivu Marriage Assistance Scheme for Orphan Girls-II\" was launched by the Social Welfare and Women Empowerment Dept, Govt of Tamil Nadu. The scheme provides financial assistance to orphan girls for their marriage. The bride should be 18 years or older at the time of marriage.",
+        "age": {
+            "ews": {
+                "gte": 18,
+                "lte": 100
             },
-            "tags": ["Fishermen", "Disaster", "Crisis", "Financial Assistance", "Relief"]
-    },
-    {
-            "beneficiaryState": ["Goa"],
-            "schemeShortTitle": "FAPLLF",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Financial Assistance for the Purchase of Lifejackets and Lifebuoys for Fishermen",
-            "schemeCloseDate": null,
-            "slug": "fapllf",
-            "briefDescription": "Financial Assistance for the Purchase of Lifejackets and Lifebuoys for Fishermen is a scheme by the Dept. of Fisheries, Govt. of Goa. Through this scheme, financial assistance amounting to 50% is provided by the Government to eligible fishermen for the purchase of lifejackets and lifebuoys.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
+            "sc": {
+                "gte": 18,
+                "lte": 100
             },
-            "tags": ["Fish", "Fishermen", "Financial Assistance", "Fisheries"]
-    },
-    {
-            "beneficiaryState": ["All"],
-            "schemeShortTitle": "CDPNER:QUC:SECOC",
-            "level": "Central",
-            "nodalMinistryName": "Ministry of Commerce and Industry",
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Coffee Development Programme in North Eastern Region: Quality Upgradation / Certification: Support for Eco-Certification / Organic Certification",
-            "schemeCloseDate": null,
-            "slug": "cdpnerqucsecoc",
-            "briefDescription": "The scheme aims to encourage coffee growers to improve quality for higher returns and improve access to high-value specialty markets through the production of eco-certified coffees. It also encourages small growers to form groups/collectives to take up eco-certification.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
+            "general": {
+                "gte": 18,
+                "lte": 100
             },
-            "tags": ["Agriculture", "Farmer", "Subsidy", "DBT"]
-    },
-    {
-            "beneficiaryState": ["Puducherry"],
-            "schemeShortTitle": "SPFRPCVWNMPCN-FAASCDMF",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Subsidy for the Purchase of Fiber-reinforced Plastic Cattamaran/ Vallam/ Wooden Nava/ Marine Plywood Canoe With Nets under Financial Assistance for Availing Subsidy Components for the Development of Marine Fisheries",
-            "schemeCloseDate": null,
-            "slug": "spfrpcvwnmpcn-faascdmf",
-            "briefDescription": "The scheme 'Subsidy for the Purchase of Fiber-reinforced Plastic Cattamaran/ Vallam/ Wooden Nava/ Marine Plywood Canoe With Nets' is introduced to increase marine fish production by extending subsidies to the fishermen for the procurement of fiber-reinforced plastic vallam with nets.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
+            "obc": {
+                "gte": 18,
+                "lte": 100
             },
-            "tags": ["Subsidy", "Boat", "Fisherman", "Financial Assistance", "Procurement"]
-    },
-    {
-            "beneficiaryState": ["Goa"],
-            "schemeShortTitle": "FAPCNFCLT26FFIW",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Financial Assistance to Purchase/Construct New Fishing Craft less than 26 feet for Fishing in Inland Waters of Goa",
-            "schemeCloseDate": null,
-            "slug": "fapcnfclt26ffiw",
-            "briefDescription": "The scheme has been introduced to uplift the sizeable community of traditional fishermen by providing them financial help in the form of subsidy on the construction/purchase of Fishing Craft less than 26 feet for fishing in inland waters of Goa. The applications are accepted only in offline mode.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
+            "st": {
+                "gte": 18,
+                "lte": 100
             },
-            "tags": ["Fishermen", "Fish", "Subsidy", "Financial Assistance"]
-    },
-    {
-            "beneficiaryState": [],
-            "schemeShortTitle": "INDAGFF",
-            "level": "Central",
-            "nodalMinistryName": "Ministry of Agriculture and Farmers Welfare",
-            "schemeCategory": ["Education", "Learning", "Agriculture", "Rural & Environment"],
-            "schemeName": "India Afghanistan Fellowship",
-            "schemeCloseDate": null,
-            "slug": "indagff",
-            "briefDescription": "India-Afghanistan Fellowship Programme started in 2010-11 with 115 fellowships every year for pursuing Masters and Ph.D in Indian Agricultural Universities, to support the agricultural human resource development in Afghanistan through formal education of Afghanistan scientists/faculty and students.",
-            "age": {
-                "ews": {"gte": 1, "lte": 100},
-                "sc": {"gte": 1, "lte": 100},
-                "general": {"gte": 1, "lte": 100},
-                "obc": {"gte": 1, "lte": 100},
-                "st": {"gte": 1, "lte": 100},
-                "female": {"gte": 1, "lte": 100},
-                "widowed": {"gte": 1, "lte": 100}
+            "female": {
+                "gte": 18,
+                "lte": 100
             },
-            "tags": ["Afghanistan", "Fellowship", "Agricultural"]
-    },
-    {
-            "beneficiaryState": ["Gujarat"],
-            "schemeShortTitle": "SSPFTWS",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment", "Skills", "Employment"],
-            "schemeName": "Stipend Scheme for Poultry Farming Training for Weaker Section",
-            "schemeCloseDate": null,
-            "slug": "sspftws",
-            "briefDescription": "The scheme 'Stipend Scheme for Poultry Farming Training for Weaker Section' was launched by the Department of Agriculture, Farmers Welfare & Co-operation, Government of Gujarat to raise the income of poultry farmers by scientific poultry farming training.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
-            },
-            "tags": ["Poultry Farming", "Training", "Weaker Section", "Stipend", "Cash Assistance"]
-    },
-    {
-            "beneficiaryState": ["All"],
-            "schemeShortTitle": "DSCTA:ECC",
-            "level": "Central",
-            "nodalMinistryName": "Ministry of Commerce and Industry",
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Development Support for Coffee in Traditional Areas: Eco-certification of Coffee",
-            "schemeCloseDate": null,
-            "slug": "dsctaecc",
-            "briefDescription": "The scheme encourages coffee growers to access high-value specialty markets through the production of eco-certified coffees to realize higher returns by adhering to a set of standards that help in the communication of the various conditions surrounding the production of coffee.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
-            },
-            "tags": ["Coffee", "Farmer", "Agriculture", "Subsidy", "DBT"]
-    },
-    {
-            "beneficiaryState": ["Goa"],
-            "schemeShortTitle": "FAPFPFOOBM",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Financial Assistance for Purchase of Fuel (Petrol) to the Fishermen for Operation of Out Board Motors",
-            "schemeCloseDate": null,
-            "slug": "fapfpfoobm",
-            "briefDescription": "The scheme 'Financial Assistance for Purchase of Fuel (Petrol) to the Fishermen for Operation of Out Board Motors' is a scheme by the Department of Fisheries, Government of Goa. Through this scheme, a subsidy of ₹30 per litre on a maximum consumption of 1700 litres of petrol is provided to fishermen.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
-            },
-            "tags": ["Fishermen", "Fish", "Subsidy", "Financial Assistance", "Petrol"]
-    },
-
-    {
-            "beneficiaryState": ["Goa"],
-            "schemeShortTitle": "FATPOMO2T5FFTTFC",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Financial Assistance to Purchase Outboard Motor of 2HP to 5 HP for Fitting to the Fishing Canoe",
-            "schemeCloseDate": null,
-            "slug": "fatpomo2t5ffttfc",
-            "briefDescription": "Financial Assistance to Purchase Outboard Motor of 2HP to 5 HP for Fitting to the Fishing Canoe is a scheme by the Department of Fisheries, Government of Goa. This scheme has been introduced to grant financial assistance in the form of a subsidy on the purchase of an outboard motor of 2HP to 5HP.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
-            },
-            "tags": ["Fishermen", "Fish", "Financial Assistance", "Subsidy"]
-    },
-    {
-        
-            "beneficiaryState": ["All"],
-            "schemeShortTitle": "SAGY",
-            "level": "Central",
-            "nodalMinistryName": "Ministry of Rural Development",
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Saansad Adarsh Gram Yojana",
-            "schemeCloseDate": null,
-            "slug": "sagy",
-            "briefDescription": "Saansad Adarsh Gram Yojana aims to translate the comprehensive vision of Mahatma Gandhi about an ideal Indian village into reality, keeping in view the present context. Each Member of Parliament adopts a Gram Panchayat and guides its holistic progress giving importance to social development.",
-            "age": {
-                "ews": {"gte": 0, "lte": 100},
-                "sc": {"gte": 0, "lte": 100},
-                "general": {"gte": 0, "lte": 100},
-                "obc": {"gte": 0, "lte": 100},
-                "st": {"gte": 0, "lte": 100},
-                "female": {"gte": 0, "lte": 100},
-                "widowed": {"gte": 0, "lte": 100}
-            },
-            "tags": ["Rural Development"]
-    },
-    {
-        
-            "beneficiaryState": ["Odisha"],
-            "schemeShortTitle": "MMKY-FANBEN",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "MMKY-Financial Assistance for New Boat, Engine, and Net",
-            "schemeCloseDate": null,
-            "slug": "mmky-fanben",
-            "briefDescription": "The State plan scheme 'MMKY-Financial Assistance for New Boat, Engine, and Net' was launched by the Fisheries & Animal Resources Development Department, Government of Odisha in order to increase marine fish production and to enhance incomes and livelihoods of the marine fishers.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
-            },
-            "tags": ["Financial Assistance", "Boat", "Engine", "Net", "Maschyajibi", "Fish", "Fisherman"]
-    },
-    {
-        
-            "beneficiaryState": ["Meghalaya"],
-            "schemeShortTitle": "VDS",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Vegetable Development Scheme",
-            "schemeCloseDate": null,
-            "slug": "vds",
-            "briefDescription": "The objective of the scheme is to promote vegetable production through HYV Seeds/ Hybrids/ Improved/ Open Pollinated seedlings, including assistance to farmers.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
-            },
-            "tags": ["Agriculture", "Farmer", "Vegetable Production", "Subsidy", "Vegetable Seed", "Poly House"]
-    },
-    {
-        
-            "beneficiaryState": ["Meghalaya"],
-            "schemeShortTitle": "HMNEH",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Horticulture Mission for North Eastern Hill Scheme- Meghalaya",
-            "schemeCloseDate": null,
-            "slug": "hmneh",
-            "briefDescription": "The objective of the scheme is to improve productivity, quality planting material, canopy management of fruit trees, support marginal and small farmers, upscaling protected cultivation, and drip irrigation.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
-            },
-            "tags": ["Horticulture", "North Eastern Hill", "Integrated Development", "Mission", "Farmer"]
-    },
-    {
-        
-            "beneficiaryState": ["Meghalaya"],
-            "schemeShortTitle": "PHMS",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Post Harvest Marketing Scheme",
-            "schemeCloseDate": null,
-            "slug": "phms",
-            "briefDescription": "The 'Post Harvest Marketing Scheme' was launched by the Department of Agriculture & Farmers’ Welfare, Government of Meghalaya for the creation of post-harvest marketing infrastructure.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
-            },
-            "tags": ["Post Harvest", "Marketing", "Infrastructure", "Farmer", "SHG Farmers", "Co-Operative Societies", "FIG", "FPO", "Horticulture"]
-    },
-    {
-        
-            "beneficiaryState": ["Meghalaya"],
-            "schemeShortTitle": "RCTPM",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Regional Centre for Training and Production of Mushroom",
-            "schemeCloseDate": null,
-            "slug": "rctpm",
-            "briefDescription": "The objective of the scheme is to train farmers in the method of mushroom cultivation and to supply quality spawn and pasteurized compost to farmers.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
-            },
-            "tags": ["Agriculture", "Farmer", "Mushroom Production", "Financial Assistance", "Training"]
-    },
-    {
-        
-            "beneficiaryState": ["Meghalaya"],
-            "schemeShortTitle": "ARSLS",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Agriculture Research Stations and Laboratories Scheme",
-            "schemeCloseDate": null,
-            "slug": "arsls",
-            "briefDescription": "The objective of the scheme is to conduct adaptive research trials on different crops in the Research Farms and in Farmers' Field for adaptability and use of bio pesticides/bio agents.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
-            },
-            "tags": ["Agriculture", "Research Station", "Laboratory", "Farmer", "Bio Pesticide", "Bio Agent"]
-    },
-    {
-        
-            "beneficiaryState": ["Maharashtra"],
-            "schemeShortTitle": "BHAUSAHEB FUNDKAR HORTICULTURE PLANTATION SCHEME",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Bhausaheb Fundkar Falbag Lagvad Scheme",
-            "schemeCloseDate": null,
-            "slug": "bhausaheb-fundkar-horticulture-plantation-scheme",
-            "briefDescription": "This scheme includes the plantation of sixteen perennial horticulture crops. Farmers from the Konkan division can avail benefits of 0.10 Hector to 10.00 Hector and the rest of Maharashtra 0.20 Hector to 6.00 Hector.",
-            "age": {
-                "ews": {"gte": 0, "lte": 100},
-                "sc": {"gte": 0, "lte": 100},
-                "general": {"gte": 0, "lte": 100},
-                "obc": {"gte": 0, "lte": 100},
-                "st": {"gte": 0, "lte": 100},
-                "female": {"gte": 0, "lte": 100},
-                "widowed": {"gte": 0, "lte": 100}
-            },
-            "tags": ["Direct Benefit Transfer", "Farmer", "General", "Horticulture", "Plantation"]
-    },
-    {
-        
-            "beneficiaryState": ["Meghalaya"],
-            "schemeShortTitle": "OMS",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Organic Manure Scheme",
-            "schemeCloseDate": null,
-            "slug": "oms",
-            "briefDescription": "The objective of the scheme is to provide hands-on training at the village level on the production of organic compost inputs such as compost for plant health management for sustainable agriculture.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
-            },
-            "tags": ["Organic Manure", "Farmer", "Agriculture", "Training"]
-    },
-    {
-        
-            "beneficiaryState": ["Meghalaya"],
-            "schemeShortTitle": "AIUS",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Agriculture Information Unit Scheme",
-            "schemeCloseDate": null,
-            "slug": "aius",
-            "briefDescription": "The key objective is to disseminate information on scientific methods of cultivation to extension staff and the farming community through media such as pamphlets, leaflets, radio, television, etc., and participating/holding awareness programs by means of exhibitions, seminars, etc.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
-            },
-            "tags": ["Agriculture", "Information Unit", "Leaflets", "Booklets", "Farmer"]
-    },
-    {
-        
-            "beneficiaryState": ["Puducherry"],
-            "schemeShortTitle": "GEFM-MESIFAI-SA-MSME",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Business", "Entrepreneurship", "Agriculture", "Rural & Environment"],
-            "schemeName": "Green and Eco-Friendly Measures under Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries - State Awards to Micro, Small and Medium Enterprises",
-            "schemeCloseDate": null,
-            "slug": "gefm-mesifai-sa-msme",
-            "briefDescription": "The award for Green and Eco-Friendly Measures is conferred upon the industries that are green and eco-friendly as per the standards of the Department of Science, Technology and Environment (DSTE), Puducherry. The awardee is given a cash award of ₹2,00,000/- and a citation.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
-            },
-            "tags": ["Award", "Entrepreneur", "MSME", "Business", "Environment"]
-    },
-    {
-        
-            "beneficiaryState": ["Rajasthan"],
-            "schemeShortTitle": "DR",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Diggy",
-            "schemeCloseDate": null,
-            "slug": "dr",
-            "briefDescription": "Rajasthan Government has started the Diggy Scheme for the welfare of farmers, under which farmers will be provided grants for making dig for irrigation of crops. This scheme is to help farmers improve their farming by using more water resources and encourage them to grow good crops.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
-            },
-            "tags": ["Farming", "Farmer", "Development"]
-    },
-
-    {
-        
-            "beneficiaryState": ["Rajasthan"],
-            "schemeShortTitle": "KT",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Khet Talai",
-            "schemeCloseDate": null,
-            "slug": "kt",
-            "briefDescription": "Under the Khet Talai scheme, the Rajasthan Government gives subsidies to the farmers on the construction of farm ponds so that the farmers can collect rainwater and irrigate their fields by making farm ponds in their fields.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
-            },
-            "tags": ["Farming", "Farmer", "Khet Talai", "Development"]
-    },
-    {
-        
-            "beneficiaryState": ["Rajasthan"],
-            "schemeShortTitle": "ABN",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Anti Bird Net",
-            "schemeCloseDate": null,
-            "slug": "abn",
-            "briefDescription": "Under the Anti Bird Net, birds will never leave your garden if they are used to pecking on certain trees and plants, but if you install anti-bird nets at the appropriate places, you can prevent them from coming again to peck your plants.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
-            },
-            "tags": ["Farmer", "Anti Bird Net", "Farming", "Agriculture"]
-    },
-    {
-        
-            "beneficiaryState": ["Gujarat"],
-            "schemeShortTitle": "FMTASPS(STC)",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Fodder Minikits under Tribal Area Sub Plan (TASP) Scheme (ST Category)",
-            "schemeCloseDate": null,
-            "slug": "fmtaspsstc",
-            "briefDescription": "The scheme 'Fodder Minikits under Tribal Area Sub Plan (TASP) Scheme' is implemented by the Directorate of Animal Husbandry, Government of Gujarat to provide an improved variety of fodder seeds to Scheduled Tribe beneficiaries for widespread publicity, demonstration, and adaptation by farmers.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
-            },
-            "tags": ["Fodder Minikits", "Farmer", "Fodder Seed", "Scheduled Tribe"]
-    },
-    {
-        
-            "beneficiaryState": ["Gujarat"],
-            "schemeShortTitle": "APDCCSIFDS(GC)",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Assistance for Power Driven Chaff Cutter Scheme under Integrated Fodder Development Scheme (General Category)",
-            "schemeCloseDate": null,
-            "slug": "apdccsifdsgc",
-            "briefDescription": "The scheme provides financial assistance to dairy farmers belonging to General Caste category on the purchase of electric powered chaff cutters. By using power driven chaff cutter, dairy farmers can reduce wastage of green & dry fodder which is economically important for their profitable dairy farming.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
-            },
-            "tags": ["Chaff Cutter", "Animal Husbandry", "Dairy Farmer", "Financial Assistance"]
-    },
-    {
-        
-            "beneficiaryState": ["Gujarat"],
-            "schemeShortTitle": "APDCCSSCSP(SCC)",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Agriculture", "Rural & Environment"],
-            "schemeName": "Assistance for Power Driven Chaff Cutter Scheme under Scheduled Castes Sub Plan (SC Category)",
-            "schemeCloseDate": null,
-            "slug": "apdccsscspscc",
-            "briefDescription": "The scheme provides financial assistance to dairy farmers belonging to Scheduled Caste category on the purchase of electric powered chaff cutters. By using power driven chaff cutter, dairy farmers can reduce wastage of green & dry fodder which is economically important for their profitable dairy farming.",
-            "age": {
-                "ews": {"gte": 18, "lte": 100},
-                "sc": {"gte": 18, "lte": 100},
-                "general": {"gte": 18, "lte": 100},
-                "obc": {"gte": 18, "lte": 100},
-                "st": {"gte": 18, "lte": 100},
-                "female": {"gte": 18, "lte": 100},
-                "widowed": {"gte": 18, "lte": 100}
-            },
-            "tags": ["Chaff Cutter", "Scheduled Caste", "Farmer", "Dairy Farming", "Subsidy"]
-    },
-    {
-        
-            "beneficiaryState": ["Tamil Nadu"],
-            "schemeShortTitle": "DALPS",
-            "level": "State",
-            "nodalMinistryName": null,
-            "schemeCategory": ["Social welfare", "Empowerment", "Women", "Child", "Agriculture", "Rural & Environment"],
-            "schemeName": "Destitute Agricultural Labourers Pension Scheme",
-            "schemeCloseDate": null,
-            "slug": "dalps",
-            "briefDescription": "The 'Destitute Agricultural Labourers Pension Scheme' was launched by the Social Welfare and Nutritious Meal Programme Department, Government of Tamil Nadu. The scheme aims to give pensions of ₹1,000/- to destitute agricultural labourers of 60 years and above and dhoti, saree supplied on festivals.",
-            "age": {
-                "ews": {"gte": 60, "lte": 100},
-                "sc": {"gte": 60, "lte": 100},
-                "general": {"gte": 60, "lte": 100},
-                "obc": {"gte": 60, "lte": 100},
-                "st": {"gte": 60, "lte": 100},
-                "female": {"gte": 60, "lte": 100},
-                "widowed": {"gte": 60, "lte": 100}
-            },
-            "tags": ["Destitute", "Farmer", "Financial Assistance", "Labour", "Senior Citizen", "Clothes"]
+            "widowed": {
+                "gte": 18,
+                "lte": 100
+            }
+        },
+        "tags": [
+            "Orphan",
+            "Girl",
+            "Marriage",
+            "Gold"
+        ]
     }
 ]
