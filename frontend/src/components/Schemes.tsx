@@ -28,7 +28,7 @@ export default function Schemes() {
           {t("find_schemes")}
         </h1>
         <div className="grid grid-cols-2 gap-8 text-center">
-          <Card>
+          <Card className="border-orange bg-wheat">
             <CardHeader className="">
               <HandCoins
                 className="mb-4 flex w-full justify-center"
@@ -41,7 +41,7 @@ export default function Schemes() {
             </CardHeader>
           </Card>
 
-          <Card>
+        <Card className="border-orange bg-wheat">
             <CardHeader>
               <Warehouse
                 className="color-white mb-4 flex w-full justify-center"
@@ -56,7 +56,7 @@ export default function Schemes() {
             </CardHeader>
           </Card>
 
-          <Card>
+        <Card className="border-orange bg-wheat">
             <CardHeader>
               <HousePlus
                 className="mb-4 flex w-full justify-center"
@@ -71,7 +71,7 @@ export default function Schemes() {
             </CardHeader>
           </Card>
 
-          <Card>
+        <Card className="border-orange bg-wheat">
             <CardHeader>
               <Shield className="mb-4 flex w-full justify-center" size={45} />
               <CardTitle className="pb-2 text-2xl">
